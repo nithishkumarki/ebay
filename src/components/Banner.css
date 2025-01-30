@@ -10,6 +10,9 @@
 }
 .Banner-Container-content
 {
+       display: flex;
+       flex-direction: column;
+       
     font-size: 20px;
        position: absolute;
        top: 20%; 
@@ -25,5 +28,7 @@
        border: none;
        border-radius: 10px;
        padding: 5px;
+       width: 175px;
+       height: 40px;
        
 }

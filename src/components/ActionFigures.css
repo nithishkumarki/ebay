@@ -2,11 +2,20 @@
     padding-left: 20px;
 
 }
-.ActionFiguresSlider{
+
+ .ActionFiguresSlider {
+    position: relative;
     gap: 20px;
     display: flex;
     flex-direction: row;
-
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.ActionFiguresSlider:hover
+{
+    scrollbar-color: rgb(201, 201, 201) rgb(255, 255, 255)
 }
 
 .ActionFiguresSlider-item{
@@ -19,7 +28,8 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-}
+} 
+
 
 .ActionFiguresSlider-item>img{
   border-radius: 20px;
@@ -34,6 +44,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
+    top:5%;
     left: 80%;
 }
 .ActionFiguresSlider-item > p 
@@ -44,3 +55,4 @@
     -webkit-line-clamp: 2; 
     -webkit-box-orient: vertical;
 }
+

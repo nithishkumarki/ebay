@@ -1,0 +1,27 @@
+.TrendOnEbay{
+   
+}
+h1{
+    padding-left: 20px;
+}
+.TrendOnEbay-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.TrendOnEbay-items-item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 168px;
+    width: 128px;
+}
+.TrendOnEbay-items-item>img{
+   border-radius: 50%;
+   height: 128px;
+   width: 128px;
+}
+.TrendOnEbay-items-item>p{
+    font-weight:normal;
+ }
+
